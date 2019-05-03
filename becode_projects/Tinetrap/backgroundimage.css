@@ -1,0 +1,29 @@
+.blurry-background {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.blur-image {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  /* background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  max-width: 100%;
+  height: auto;
+}
+
+.background-text {
+  color: white;
+  border: 2px solid #110dd7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  padding: 0;
+}
