@@ -1,0 +1,31 @@
+.banner {
+  height: 100vh; /* viewport height: adapts to screen */
+  width: auto;
+  color: white;
+  padding: 1px;
+  margin: 10px;
+  border: 1px solid #110dd7;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.3) 50%
+  );
+  background-image: url(card.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 20px;
+  font-weight: lighter;
+  opacity: 0.8;
+}

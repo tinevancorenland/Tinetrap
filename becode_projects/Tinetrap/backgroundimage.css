@@ -6,10 +6,7 @@
 .blur-image {
   filter: blur(4px);
   -webkit-filter: blur(4px);
-  /* background-position: absolute;
-  background-repeat: no-repeat;
-  background-size: cover; */
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
